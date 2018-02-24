@@ -103,14 +103,18 @@ textarea {
     font-family: "Merriweather";
 }
 
+.outer-container {
+    min-width: 1200px;
+}
+
 .column {
-    width: 270px;
+    width: 20%;
     padding: 10px;
     float: left;
 }
 
 .column-wide {
-    width: 700px;
+    width: 50%;
     padding: 10px;
     float: left;
 }
@@ -122,6 +126,7 @@ h1 {
 
 .column input {
     padding: 5px;
+    width: 70%;
 }
 
 .button {
@@ -134,7 +139,7 @@ h1 {
 .list {
     border: 1px solid #d8d8d8;
     height: 600px;
-    width: 220px;
+    width: 100%;
     margin-top: 10px;
     overflow: auto;
 }

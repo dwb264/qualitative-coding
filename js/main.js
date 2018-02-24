@@ -179,8 +179,8 @@ $(document).ready(function() {
         selectedText = window.getSelection().toString();
         $('#codeSelect').show();
         $('#codeSelect').css({
-            left: e.pageX,
-            top: e.pageY
+            left: Math.min(e.pageX, window.innerWidth - $("#codeSelect").width()-10),
+            top: Math.min(e.pageY, window.innerHeight - $("#codeSelect").height()-10)
         });
     });
 
